@@ -1,23 +1,15 @@
-import { useGlobalContext } from './context'
 import './App.css'
-
-
-
-import Search from './components/Search'
+import Favourites from './components/Favourites'
 import Meals from './components/Meals'
 import Modal from './components/Modal'
-import Favorites from './components/Favorites'
-export default function App() {
-  const { showModal, favorites } = useGlobalContext()
-
-  return (
+import Search from './components/Search'
+export default function App(){
+  return(
     <main>
-
-      <Search />
-      {favorites.length > 0 && <Favorites />}
-
-      <Meals />
-      {showModal && <Modal />}
+      {/*<Search/>*/}
+      {/*<Favourites/>*/}
+      <Meals/>
+      {/*<Modal/>*/}
     </main>
   )
 }
