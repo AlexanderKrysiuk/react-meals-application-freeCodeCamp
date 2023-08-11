@@ -1,5 +1,5 @@
 import './App.css'
-import Favourites from './components/Favourites'
+import Favourites from './components/Favorites'
 import Meals from './components/Meals'
 import Modal from './components/Modal'
 import Search from './components/Search'
